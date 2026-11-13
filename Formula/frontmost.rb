@@ -1,17 +1,11 @@
 class Frontmost < Formula
   desc "See how AI apps answer your buyers' questions, from the terminal"
   homepage "https://github.com/frontmost-ai/cli"
-  url "https://github.com/frontmost-ai/cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "4eeb7ec06cb616cf170d610a8fdcf818be865c3b36e83cedb413a166ebc86699"
+  url "https://github.com/frontmost-ai/cli/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "bc1bb42effde8b0c5c8afaea2dfeb7e182c3d973956f472a02fa6b9039f32b12"
   license "MIT"
   head "https://github.com/frontmost-ai/cli.git", branch: "main"
 
-  bottle do
-    root_url "https://github.com/frontmost-ai/homebrew-tap/releases/download/frontmost-0.1.0"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "80ea30e15ec7fb951e115a2723c86e0e6a0ca21206f82377bde678c34c9123f5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "41555a6118ee20705350f903b2cf6fabd201b5e662f8de7b840b3f974ee02541"
-  end
 
   depends_on "node"
 
