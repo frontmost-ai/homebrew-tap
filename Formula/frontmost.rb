@@ -6,7 +6,6 @@ class Frontmost < Formula
   license "MIT"
   head "https://github.com/frontmost-ai/cli.git", branch: "main"
 
-
   depends_on "node"
 
   def install
