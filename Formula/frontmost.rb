@@ -12,7 +12,7 @@ class Frontmost < Formula
     libexec.install "bin", "src", "openapi.json", "package.json"
     (bin/"frontmost").write <<~SH
       #!/bin/bash
-      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/bin/frontmost.js" "$@"
+      exec "#{formula_opt_bin("node")}/node" "#{libexec}/bin/frontmost.js" "$@"
     SH
   end
 
