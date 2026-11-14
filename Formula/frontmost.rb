@@ -1,8 +1,8 @@
 class Frontmost < Formula
   desc "See how AI apps answer your buyers' questions, from the terminal"
   homepage "https://github.com/frontmost-ai/cli"
-  url "https://github.com/frontmost-ai/cli/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "1998a9e14b80fd1f01b1cd7839b4a492ece03605edf68455a57b638ca4484480"
+  url "https://github.com/frontmost-ai/cli/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "db453ebee1c2a04a94e8bab80626d0ebdcf35014fd1be8b0561db9c8f0c93767"
   license "MIT"
   head "https://github.com/frontmost-ai/cli.git", branch: "main"
 
