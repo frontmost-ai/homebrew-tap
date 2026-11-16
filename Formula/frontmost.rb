@@ -6,6 +6,12 @@ class Frontmost < Formula
   license "MIT"
   head "https://github.com/frontmost-ai/cli.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/frontmost-ai/homebrew-tap/releases/download/frontmost-0.6.2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "f32579570b328c72d719de0c61205c24fcfa3b3fad59582b7accc24524f31845"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "690786cbaaccdb3fad8e663fbcd7db22bc77e77592a961297561d271c95474d8"
+  end
+
   depends_on "node"
 
   def install
